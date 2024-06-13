@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+  <!-- Title: add your Portfolio websites's title here -->
+  <title>Shruti Bansod | Developer</title>
+
+  <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+  <meta name="keywords" content="[username], [name], skill" />
+
+  <!-- Improve your SEO by adding a small descrption of you -->
+  <meta name="description" content="[Your name here] | Developer" />
+
+  <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+  <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+
+  <!-- Add your primary-theme color for the value of content -->
+  <meta name="theme-color" content="#36d1dc" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <!-- Fill content with the URL of this portfolio you'll host -->
+  <meta property="og:url" content="https://devfolio.js.org/" />
+  <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+  <meta property="og:title" content="[Your name here] | Developer" />
+  <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
+  <meta property="og:description" content="Made using DevFolio Template" />
+  <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
+      so that a thumbnail image of your portfolio is shown while shared on other platform -->
+  <meta property="og:image" content="https://devfolio.js.org/assets/devfolio.png" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <!-- Again fill content attr with the URL of this portfolio you'll host -->
+  <meta property="twitter:url" content="https://devfolio.js.org" />
+  <!-- Recommended to use the same text used within <title> element -->
+  <meta property="twitter:title" content="[Your name here] | Developer" />
+  <!-- short description that shows up while your portfolio is shared -->
+  <meta property="twitter:description" content="Made using DevFolio Template" />
+  <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
+  <meta property="twitter:image" content="https://anilseervi.vercel.app/assets/devfolio.png" />
+
+  <!-- link tags -->
+  <link rel="preload" as="style" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+
+  <!-- FontAwesome Icons link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script defer src="./javascript/scrollreveal.min.js"></script>
+  <script defer type="text/javascript" src="./javascript/scrollveal.js"></script>
+
+  <!-- Remove Google Analytics once you have your portfolio website set-up -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || []
+    function gtag() {
+      dataLayer.push(arguments)
+    }
+    gtag("js", new Date())
+
+    gtag("config", "UA-122228201-4")
+  </script>
+  <!-- End of Google Analytics -->
+</head>
+
+<body>
+  <!-- Hero Section -->
+  <div id="hero">
+    <section class="container">
+      <h1 class="hero-title">
+        Hi, my name is <span class="text-color-main name">Shruti Bansod</span>
+        <br />
+        I'm a software engineer.
+      </h1>
+      <p class="hero-cta">
+        <a class="cta-btn cta-btn--hero" href="#about">About me</a>
+      </p>
+    </section>
+    <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+      <div class="scroll-down"></div>
+    </a>
+  </div>
+  <!-- /END Hero Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="row about-wrapper">
+        <div class="about-wrapper__image">
+          <img class="img-fluid" src="taklu.png" alt="Profile Image" width="450" height="340" />
+        </div>
+        <div class="about-wrapper__info">
+          <p class="about-wrapper__info-text">
+            Hi! I’m Shruti, a software Developer with 3 years of experience in
+            web development passionate about programming and delivering clean, well-designed and scalable code.
+          </p>
+          <p class="about-wrapper__info-text">
+            Hit me up if you’ve got a cool idea regarding any of those and wish to collaborate!
+          </p>
+
+          <a href="mailto: shruti.bansod17@vit.edu"> Email - shruti.bansod17@vit.edu</a>
+
+
+          <span class="about-wrapper__cta">
+            <a href="https://drive.google.com/file/d/1SCaqzN_scQkYuJdQvUFU7G62tXh1_e0f/view?usp=sharing" target="_blank"
+              class="cta-btn cta-btn--resume">View Resume</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /END About Section -->
+
+  <!--Projects Section-->
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">Work experience</h2>
+
+        <!-- Each .row is a project -->
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">NCR Atleos, PS Engineer I [September 2023 – Present]
+            </h3>
+            <p class="project-wrapper__text-info">
+
+              <a>Domain: Financial Technology</a>
+              <br>
+              <br>
+              <a>Developed a highly secure software used by all banks across India for processing cheques, ensuring
+                robust financial transactions.</a>
+              <br>
+              <br>
+              <a>Collaborated with a team to write scalable and modular code, enhancing the software’s maintainability
+                and efficiency.</a>
+              <br>
+              <br>
+              <a>Ensured compliance with stringent security standards to protect sensitive financial data.</a>
+              <br>
+
+
+            </p>
+            <!-- <div class="project-wrapper__text-btns">
+              <a href="#" target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--hero cta-btn--projects">See
+                Live</a>
+              <a href="#" target="_blank" class="cta-btn text-color-main">Source Code</a>
+            </div> -->
+          </div>
+
+          <div class="project-wrapper__image">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <img src="images/ncr.png" class="img-fluid" alt="Project Image" width="200" height="200" />
+              </div>
+            </a>
+          </div>
+        </article>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Vritti Solutions, Software Developer [July 2021– September 2023]
+            </h3>
+            <p class="project-wrapper__text-info">
+              <a>Developed an Enterprise Resource Planning (ERP) software to manage organizational activities such as
+                work management, warehouse management, accounting, customer relations, ticketing, and production.
+              </a>
+              <br>
+              <br>
+              <a>Chat Conversation Functionality: Designed and implemented a chat conversation feature from scratch
+                using JavaScript and SQL, enabling users to communicate seamlessly within the platform.
+              </a>
+              <br>
+              <br>
+              <a>Module Development: Contributed to various modules including Customer Relationship Management (CRM),
+                Human Resources (HR), WorkBench, Dashboard, and Service Desk.
+              </a>
+              <br>
+              <br>
+              <a>Independent Projects: Led the development of standalone projects such as a MarketPlace Integration
+                executable (EXE) and an E-learning platform.
+              </a>
+              <br>
+              <br>
+            </p>
+            <!-- <div class="project-wrapper__text-btns">
+              <a href="#" target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--hero cta-btn--projects">See
+                Live</a>
+              <a href="#" target="_blank" class="cta-btn text-color-main">Source Code</a>
+            </div> -->
+          </div>
+
+          <div class="project-wrapper__image">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <img src="images/vritti.jpeg" class="img-fluid" alt="Project Image" width="600" height="767" />
+              </div>
+            </a>
+          </div>
+        </article>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Anubhooti Solutions, Intern [Jan 2021-May-2021]
+            </h3>
+            <p class="project-wrapper__text-info">
+
+              <!-- <a></a>
+              <br>
+              <br> -->
+
+              <a>Domain: Machine Learning and Speech Recognition</a>
+              <br>
+              <br>
+
+              <a>Developed a machine learning model for audio device identification using Support Vector Machine (SVM)
+                classifier, focusing on audio forensics.
+              </a>
+              <br>
+              <br>
+
+              <a>Utilized features such as mean and standard deviation of Energy Vector and FFT spectral mean features,
+                achieving 49.18% accuracy.
+              </a>
+              <br>
+              <br>
+
+              <a>Outperformed random forest and Naive Bayes classifiers (15% accuracy) for a dataset of 19 devices.
+              </a>
+              <br>
+              <br>
+
+              <a>Technologies: Python, Machine Learning, SVM Classifier, Speech Recognition
+              </a>
+              <br>
+              <br>
+
+            </p>
+            <!-- <div class="project-wrapper__text-btns">
+              <a href="#" target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--hero cta-btn--projects">See
+                Live</a>
+              <a href="#" target="_blank" class="cta-btn text-color-main">Source Code</a>
+            </div> -->
+          </div>
+
+          <div class="project-wrapper__image">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <img src="images/anu.webp" class="img-fluid" alt="Project Image" width="1366" height="767" />
+              </div>
+            </a>
+          </div>
+        </article>
+        <!-- /END Project -->
+
+
+        <!-- Each .row is a project -->
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Atlas Copco, Project Intern [July 2020-Dec 2020]
+
+            </h3>
+            <p class="project-wrapper__text-info">
+              <a>Project: Asset Management System Domain: IoT
+              </a>
+              <br>
+              <br>
+              <a>This asset management system was designed for tracking long range assets in large factory complexes.
+
+              </a>
+              <br>
+              <br>
+              <a>Detected assets with UHF RFID reader programmed using ESP32 microcontroller.
+
+              </a>
+              <br>
+              <br>
+              <a>Timestamp of assets was recorded at different locations and displayed data using Power BI and Ignition
+                software
+              </a>
+              <br>
+              <br>
+            </p>
+            <!-- <div class="project-wrapper__text-btns">
+              <a href="#" target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--hero cta-btn--projects">See
+                Live</a>
+              <a href="#" target="_blank" class="cta-btn text-color-main">Source Code</a>
+            </div> -->
+          </div>
+
+          <div class="project-wrapper__image">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <img src="images/atlas.png" class="img-fluid" alt="Project Image" width="600" height="767" />
+              </div>
+            </a>
+          </div>
+        </article>
+        <!-- /END Project -->
+
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+  <!-- -------+++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!--Work Section-->
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">Projects</h2>
+
+        <!-- Each .row is a project -->
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">API Method Logs Download Website</h3>
+            <p class="project-wrapper__text-info">
+              <a>Domain: Web Application Development</a>
+              <br>
+              <br>
+
+              <a>Developed a web application for downloading error logs generated by the system, providing a
+                user-friendly interface for log management.
+
+              </a>
+              <br>
+              <br>
+
+              <a>Implemented token-based authentication for secure login, ensuring only authorized users can access the
+                logs.
+
+              </a>
+              <br>
+              <br>
+
+              <a>Utilized .NET for backend Web API development and Angular for the frontend, creating a robust and
+                responsive application.
+
+              </a>
+              <br>
+              <br>
+
+              <a>Technologies: .NET, Angular
+
+              </a>
+              <br>
+              <br>
+
+            </p>
+            <!-- <div class="project-wrapper__text-btns">
+              <a href="#" target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--hero cta-btn--projects">See
+                Live</a>
+              <a href="#" target="_blank" class="cta-btn text-color-main">Source Code</a>
+            </div> -->
+          </div>
+
+          <div class="project-wrapper__image">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <img src="images/api.svg" class="img-fluid" alt="Project Image" width="1366" height="767" />
+              </div>
+            </a>
+          </div>
+        </article>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Locomotion of three wheeled robot</h3>
+            <p class="project-wrapper__text-info">
+              <a>Domain: Robotics</a>
+              <br>
+              <br>
+
+              <a>Programmed a three-wheeled robot for line detection using Line Sensor Array (LSA), encoder, and
+                magnetometer on an ATMEGA2560 microcontroller.
+
+              </a>
+              <br>
+              <br>
+
+              <a>Implemented control systems enabling the robot to accurately traverse any path.
+              </a>
+              <br>
+              <br>
+
+              <a>Utilized Embedded C for precise control and coordination of the robot’s movements.
+              </a>
+              <br>
+              <br>
+
+              <a>Technologies: Embedded C, ATMEGA2560
+              </a>
+              <br>
+              <br>
+
+            </p>
+            <!-- <div class="project-wrapper__text-btns">
+                      <a href="#" target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--hero cta-btn--projects">See
+                        Live</a>
+                      <a href="#" target="_blank" class="cta-btn text-color-main">Source Code</a>
+                    </div> -->
+          </div>
+
+          <div class="project-wrapper__image">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <img src="images/three.png" class="img-fluid" alt="Project Image" width="1366" height="767" />
+              </div>
+            </a>
+          </div>
+        </article>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Smart Walking Cane</h3>
+            <p class="project-wrapper__text-info">
+              <a>Domain: Assistive Technology</a>
+              <br>
+              <br>
+
+              <a>Designed an assistive cane for visually impaired individuals, capable of detecting obstacles such as
+                cars, trees, and staircases.
+
+              </a>
+              <br>
+              <br>
+
+              <a>Developed a system to alert users through earphones upon obstacle detection, enhancing their mobility
+                and safety.
+
+              </a>
+              <br>
+              <br>
+
+              <a>Achieved 96.29% detection accuracy by training a model using ORB classifiers.
+              </a>
+              <br>
+              <br>
+
+              <a>Technologies: ORB Classifiers, Machine Learning, Embedded Systems
+
+              </a>
+              <br>
+              <br>
+
+            </p>
+            <!-- <div class="project-wrapper__text-btns">
+                      <a href="#" target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--hero cta-btn--projects">See
+                        Live</a>
+                      <a href="#" target="_blank" class="cta-btn text-color-main">Source Code</a>
+                    </div> -->
+          </div>
+
+          <div class="project-wrapper__image">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <img src="images/walk.jpeg" class="img-fluid" alt="Project Image" width="1366" height="767" />
+              </div>
+            </a>
+          </div>
+        </article>
+        <!-- /END Project -->
+
+
+        <!-- Each .row is a project -->
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Camera based parking system
+            </h3>
+            <p class="project-wrapper__text-info">
+              <a>Domain: Computer Vision</a>
+              <br>
+              <br>
+
+              <a>Designed a parking system to display available parking spots outside the parking area, optimizing
+                drivers’ time.
+
+              </a>
+              <br>
+              <br>
+
+              <a>Implemented empty space detection using the OpenCV library, with spaces marked in rectangles for clear
+                visibility.
+
+              </a>
+              <br>
+              <br>
+
+              <a>Enhanced parking efficiency and user convenience through real-time monitoring and display of empty
+                spots.
+
+              </a>
+              <br>
+              <br>
+
+              <a>Technologies: OpenCV, Computer Vision, Embedded Systems
+
+              </a>
+              <br>
+              <br>
+
+            </p>
+            <!-- <div class="project-wrapper__text-btns">
+              <a href="#" target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--hero cta-btn--projects">See
+                Live</a>
+              <a href="#" target="_blank" class="cta-btn text-color-main">Source Code</a>
+            </div> -->
+          </div>
+
+          <div class="project-wrapper__image">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <img src="images/parking.webp" class="img-fluid" alt="Project Image" width="1366" height="767" />
+              </div>
+            </a>
+          </div>
+        </article>
+        <!-- /END Project -->
+
+
+        <!-- Each .row is a project -->
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">RFID based door lock system
+
+            </h3>
+            <p class="project-wrapper__text-info">
+              <a>RFID Door Lock for Robotics Club: Created a secure door lock system for the college robotics club using
+                RFID technology.
+              </a>
+              <br>
+              <br>
+              <a>ESP32 Integration: Integrated an RFID reader with an ESP32 microcontroller for seamless access control.
+
+              </a>
+              <br>
+              <br>
+              <a>ID Record Storage: Stored and verified ID records from an SD card, ensuring efficient and reliable
+                access management.
+              </a>
+              <br>
+              <br>
+            </p>
+            <!-- <div class="project-wrapper__text-btns">
+              <a href="#" target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--hero cta-btn--projects">See
+                Live</a>
+              <a href="#" target="_blank" class="cta-btn text-color-main">Source Code</a>
+            </div> -->
+          </div>
+
+          <div class="project-wrapper__image">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <img src="images/rfid.jpeg" class="img-fluid" alt="Project Image" width="1366" height="767" />
+              </div>
+            </a>
+          </div>
+        </article>
+        <!-- /END Project -->
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Achivements
+      </h2>
+      <div class="contact-wrapper">
+        <!-- <p class="contact-wrapper__text">[Put your call to action here]</p> -->
+        <!-- <a href="#" class="cta-btn cta-btn--resume">Call to Action</a> -->
+
+        <a>1st prize in Navonmesh, Competition for projects by first year students
+
+        </a>
+        <br>
+        <br>
+
+        <a>Received Fast Learner Award in Vritti Solutions Awards 2023</a>
+        <br>
+        <br>
+
+        <a>Head – Hardware Division: DD ROBOCON Year 2020-21</a>
+        <br>
+        <br>
+
+      </div>
+    </div>
+  </section>
+  <!-- END Contact Section -->
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <a href="#hero" class="back-to-top" aria-label="go back to top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <div class="social-links">
+        <!-- <a href="" target="_blank" rel="noopener noreferrer" aria-label="twitter">
+          <i class="fa-brands fa-twitter"></i> -->
+        </a>
+        <a href="#!" target="_blank" rel="noopener noreferrer" aria-label="instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <!-- <a href="#!" target="_blank" rel="noopener noreferrer" aria-label="codepen">
+          <i class="fa-brands fa-codepen"></i>
+        </a> -->
+        <a href="https://www.linkedin.com/in/shrutibansod/" target="_blank" rel="noopener noreferrer"
+          aria-label="linkedin">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="#!" target="_blank" rel="noopener noreferrer" aria-label="github">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+      <hr />
+      <p class="footer__text">
+        &copy; <span id="year"></span> - Template by
+        <a href="" target="_blank" rel="noopener noreferrer">Hotshott_22</a>. <br />Made
+        with &hearts;
+      </p>
+    </div>
+  </footer>
+  <!-- END Footer Section -->
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear()
+  </script>
+  <script src="./javascript/vanilla-tilt.min.js"></script>
+  <script type="text/javascript" src="./javascript/valtilt.js"></script>
+</body>
+
+</html>
